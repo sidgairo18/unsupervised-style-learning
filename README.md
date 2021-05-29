@@ -50,6 +50,7 @@ Feature extraction is followed by KMeans clustering. The optimal number of clust
 * For more information on the Triplet Network and embedding networks, take a look at `networks.py` and `triplet_network.py` files
 
 **Note 1:** The bottle neck layer chosen has 256 dimensions (from experiments it was seen 256 dimensions instead of 128 makes not much difference in performance).
+
 **Note 2:** The code may be slightly different from the parameters mentioned in the paper, but is sufficient to reproduce the results given in the paper (this is based on my unofficial implmentation of the [work](https://www.cvssp.org/data/Flickr25K/index_files/iccv17.pdf) and it's [public code](https://github.com/sidgairo18/Sketching-with-Style-ICCV-2017-PyTorch-).
 
 ### Running the Training Procedure
