@@ -54,8 +54,8 @@ Feature extraction is followed by KMeans clustering. The optimal number of clust
 
 ### Running the Training Procedure
 
-* For Stage 1, run python classification.py
-* For Stage 2, run python train.py
+* For Stage 1, run `python classification.py`
+* For Stage 2, run `python train.py`
 * For details on the data-loader and data text files see next section.
 
 ### Data files in /data folder
@@ -86,6 +86,14 @@ The datasets used are:
 * 2, 3, 4 can be downloaded from [here](https://github.com/sergeyk/vislab/tree/master/vislab).
 * 5, 6 have not been released publically yet due to licensing issues. But can be easily recreated as described in the paper and can be accessed at the respective websites.
 
+## Feature Visualization
+
+t-sne for feature visualizations
+
+* [Link1](https://github.com/sidgairo18/tsne-for-Feature-Visualizations)
+* [Link2](https://github.com/sidgairo18/Retrieval-Using-LSH-and-KD-Tree-Plus-Feature-Visualization/tree/master/Feature-Visualizations)
+
+
 ## End Notes and Disclaimer:
 
 * The different dataset images have not been included.
@@ -93,13 +101,6 @@ The datasets used are:
 * To request access to the Dataset please visit the BAM website and refer to the notes under **Dataset** section.
 * Feel free to use this code for your own work, but please cite the work if using this work officially.
 * In case of any bugs or errors, please be gracious enough to report an issue on this repo.
-
-## Feature Visualization
-
-t-sne for feature visualizations
-
-* [Link1](https://github.com/sidgairo18/tsne-for-Feature-Visualizations)
-* [Link2](https://github.com/sidgairo18/Retrieval-Using-LSH-and-KD-Tree-Plus-Feature-Visualization/tree/master/Feature-Visualizations)
 
 ## To cite this work: 
 
